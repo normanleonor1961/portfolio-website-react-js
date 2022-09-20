@@ -11,87 +11,108 @@ import { MdGroupWork } from "react-icons/md";
 const WorkExperience = () => {
   const data = [
     {
-      companyname: "Google",
-      position: "Full Stack Developer",
+      companyname: "Freelancer",
+      position: "Web Developer",
       description: "Perform maintenance work on an existing system",
       year: "2020 - 2021",
 
       techskills: [
         {
-          techname: "Node.JS",
+          techname: "PHP",
         },
         {
-          techname: "Express.JS",
+          techname: "JavaScript",
         },
         {
-          techname: "React.JS",
+          techname: "HTML",
         },
         {
-          techname: "Material UI",
+          techname: "CSS",
         },
       ],
     },
     {
-      companyname: "Microsoft",
-      position: "Full Stack Developer",
-      description: "Develop working knowledge on live systems",
-      year: "2020 - 2020",
+      companyname: "BPO Industry",
+      position: "Technical Support Representative",
+      description: "Call Center Agents ",
+      year: "2015 - 2019",
       techskills: [
         {
-          techname: "Node.JS",
+          techname: "Call Center Agent",
         },
         {
-          techname: "Express.JS",
+          techname: "Outbound call",
         },
         {
-          techname: "React.JS",
+          techname: "Cold Calling",
         },
         {
-          techname: "Material UI",
+          techname: "Sales",
         },
       ],
     },
     {
-      companyname: "Posbang Corporation",
-      position: "Full Stack Developer",
-      description:
-        "Manage work assignments to meet deadlines under an aggressive schedule",
-      year: "2018 - 2019",
+      companyname: "Entreprenuer",
+      position: "Bakeshop Manager",
+      description: "Manage work assignments to the workforce of the Bakeshop",
+      year: "2007-20013",
 
       techskills: [
         {
-          techname: "Node.JS",
+          techname: "Data Entry",
         },
         {
-          techname: "Express.JS",
+          techname: "Excel Spreadsheets",
         },
         {
-          techname: "React.JS",
+          techname: "Ms Word",
         },
         {
-          techname: "Material UI",
+          techname: "Email Managemtn",
         },
       ],
     },
     {
-      companyname: "Facebook",
-      position: "Full Stack Developer",
+      companyname: "Interworld Internet Cafe",
+      position: "Manager",
       description:
-        "Build and maintain storng relationships with colleagues, clients and partners",
-      year: "2015 - 2018",
+        "Build and maintain strong relationships with employees, clients and partners",
+      year: "2002 - 2006",
 
       techskills: [
         {
-          techname: "Node.JS",
+          techname: "Data Entry",
         },
         {
-          techname: "Express.JS",
+          techname: "Corel Draw",
         },
         {
-          techname: "React.JS",
+          techname: "MsWord, Excel,",
         },
         {
-          techname: "Material UI",
+          techname: "PC Repair and Software Installion",
+        },
+      ],
+    },
+    {
+      companyname: "Local Government of Tacloban",
+      position: "Information Technology Officer",
+      description:
+        "Maintenance of File Server under the Windows NT 4.0 environment",
+      year: "1994 - 2002",
+
+      techskills: [
+        {
+          techname: "File Server Administration",
+        },
+        {
+          techname: "Windows NT 4.0",
+        },
+        {
+          techname: "MsWord, Excel,",
+        },
+        {
+          techname: "PC Troubleshooting and Software Installion",
         },
       ],
     },
@@ -101,26 +122,28 @@ const WorkExperience = () => {
     "#DF0174",
     "#0B3861",
     "#FA58AC",
-    "#045FB4",
+    "#04b49d",
     "#610B5E",
     "#00FFFF",
     "#2EFE64",
+    "#c5c906ac",
   ];
 
   return (
-    <div className="container">
+    <div className="container workexperience-section">
       <div className="section-title py-5">
         <h5>Work Experience</h5>
         <span className="line"></span>
       </div>
 
-      <VerticalTimeline>
+      <VerticalTimeline lineColor="rgb(255, 99, 71)">
         {data.map((item, index) => (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: colors[index], color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{ borderRight: "7px solid #0B3861" }}
             date={item.year}
+            dateClassName="date-class"
             iconStyle={{ background: colors[index], color: "#fff" }}
             icon={<MdGroupWork />}
           >
@@ -131,7 +154,6 @@ const WorkExperience = () => {
               {item.position}
             </h5>
             <p>{item.description}</p>
-            <p>{item.year}</p>
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>

@@ -4,6 +4,7 @@ import About from "./components/About/About";
 import TechStack from "./components/TechStack/TechStack";
 import Project from "./components/Projects/Project";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
+import Education from "./components/Education/Education";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <TechStack />
       <Project />
       <WorkExperience />
+      <Education />
     </>
   );
 };
