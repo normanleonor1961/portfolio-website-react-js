@@ -36,7 +36,10 @@ const ProjectList = ({ name, description, projectlink, techused }) => {
       {show ? (
         <p>{description}</p>
       ) : (
-        <p>{description.substring(0, 50)}...read more</p>
+        <p>
+          {description.substring(0, 50)} ...
+          <span style={{ fontWeight: "bold" }}>read more</span>
+        </p>
       )}
     </div>
   );
