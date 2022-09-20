@@ -33,7 +33,11 @@ const ProjectList = ({ name, description, projectlink, techused }) => {
         </a>
       </div>
 
-      {show ? <p>{description}</p> : <p>{description.substring(0, 100)}</p>}
+      {show ? (
+        <p>{description}</p>
+      ) : (
+        <p>{description.substring(0, 50)}...read more</p>
+      )}
     </div>
   );
 };

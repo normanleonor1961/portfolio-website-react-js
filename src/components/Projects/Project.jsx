@@ -7,7 +7,7 @@ const Project = () => {
     {
       name: "PHP Stack",
       description:
-        "This project is developed in PHP Stack intended for employer to see a live demo of the project.",
+        "This project is developed in PHP Stack intended to showcase to an employer to see a live demo of the project.",
       projectlink: "www.leonorman.com",
       techused: [
         {
