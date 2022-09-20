@@ -1,0 +1,37 @@
+.sidebar-section {
+  display: flex;
+  background-color: #1b1542da;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #1b1542da;
+  /* background-color: #030303da; */
+  width: 95px;
+  position: fixed;
+}
+
+.sidebar-expand {
+  width: 230px;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow: hidden;
+}
+
+.icon-for-sidebar-expand-and-collapse {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+}
+
+.icon-for-sidebar-expand-and-collapse p svg {
+  background-color: #100d2c;
+  padding: 5px;
+  color: yellow;
+  border-radius: 5px;
+  margin-top: 50px;
+}
