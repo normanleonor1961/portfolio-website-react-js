@@ -13,10 +13,8 @@ const ProjectList = ({ name, description, projectlink, techused }) => {
     <div className="project-list" onClick={handleShowandCollapse}>
       <div className="title-and-collapse-option">
         <h5>{name}</h5>
-        <p>{show ? <FcExpand size={30} /> : <FcCollapse size={30} />}</p>
+        <p>{show ? <FcCollapse size={30} /> : <FcExpand size={30} />}</p>
       </div>
-
-      {show ? <p>{description}</p> : <p>{description.substring(0, 100)}</p>}
 
       <div className="row">
         {techused &&
@@ -34,6 +32,8 @@ const ProjectList = ({ name, description, projectlink, techused }) => {
           Live Demo
         </a>
       </div>
+
+      {show ? <p>{description}</p> : <p>{description.substring(0, 100)}</p>}
     </div>
   );
 };
