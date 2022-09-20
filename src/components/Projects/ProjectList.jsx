@@ -38,7 +38,9 @@ const ProjectList = ({ name, description, projectlink, techused }) => {
       ) : (
         <p>
           {description.substring(0, 50)} ...
-          <span style={{ fontWeight: "bold" }}>read more</span>
+          <p>
+            <span style={{ color: "blue" }}>read more</span>
+          </p>
         </p>
       )}
     </div>

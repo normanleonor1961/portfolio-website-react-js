@@ -12,6 +12,9 @@ import {
   FcBusinessman,
 } from "react-icons/fc";
 
+import { MdBiotech } from "react-icons/md";
+import { MdCastForEducation } from "react-icons/md";
+
 const SidebarList = ({ expandSidebar }) => {
   return (
     <React.Fragment>
