@@ -1,0 +1,52 @@
+.project-list {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 21px -4px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 5px 10px 21px -4px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 5px 10px 21px -4px rgba(0, 0, 0, 0.27);
+}
+
+.project-list:hover {
+  border-left: 5px solid blueviolet;
+  transition-duration: 1s;
+}
+
+.title-and-collapse-option {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.tech-used-in-project {
+  margin-top: 20px;
+  margin: 5px;
+}
+
+.tech-used-in-project p {
+  background-color: tomato;
+  color: white;
+  border-radius: 30px;
+  padding: 8px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.live-demo-button {
+  background-color: brown;
+  border-radius: 30px;
+  width: 100px;
+  text-align: center;
+  padding: 8px;
+  margin: 3px;
+}
+
+.live-demo-button a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.live-demo-button:hover {
+  background-color: rgb(24, 59, 33);
+  border: 2px solid tomato;
+  transition-duration: 1s;
+}
