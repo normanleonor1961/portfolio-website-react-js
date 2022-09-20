@@ -7,7 +7,7 @@ const About = () => {
     <div className="container about-section">
       <div className="row">
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-          <div className="about-image">
+          <div className="about-image mx-5">
             <img src={ProfilePic} alt="fullface" />
           </div>
         </div>
