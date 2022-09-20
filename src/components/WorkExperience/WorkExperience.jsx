@@ -34,7 +34,7 @@ const WorkExperience = () => {
     {
       companyname: "BPO Industry",
       position: "Technical Support Representative",
-      description: "Call Center Agents ",
+      description: "Call Center Agent",
       year: "2015 - 2019",
       techskills: [
         {
