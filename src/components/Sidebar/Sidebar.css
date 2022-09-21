@@ -2,8 +2,9 @@
   display: flex;
   background-color: #2b222213;
   background-image: url("../../image/bkground.jpg");
-  background-size: contain;
-  object-fit: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sidebar {
