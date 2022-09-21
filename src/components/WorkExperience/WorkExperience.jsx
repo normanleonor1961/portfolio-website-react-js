@@ -116,6 +116,19 @@ const WorkExperience = () => {
         },
       ],
     },
+    {
+      companyname: "Dept. of Energy and Environment Resources",
+      position: "Civil Security Agent",
+      description:
+        "Responsible in securing and protecting the USEC Ricardo M. Umali",
+      year: "1987 - 1990",
+
+      techskills: [
+        {
+          techname: "Gun Handling",
+        },
+      ],
+    },
   ];
 
   const colors = [
@@ -124,8 +137,8 @@ const WorkExperience = () => {
     "#FA58AC",
     "#04b49d",
     "#610B5E",
+    "#04681f",
     "#00FFFF",
-    "#2EFE64",
     "#c5c906ac",
   ];
 

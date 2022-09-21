@@ -62,7 +62,7 @@ const SidebarList = ({ expandSidebar }) => {
       ) : (
         <div className="navbar-icons-only">
           {" "}
-          <ul>
+          {/* <ul>
             <li className="nav-item">
               <FcHome size={25} />
             </li>
@@ -87,7 +87,7 @@ const SidebarList = ({ expandSidebar }) => {
             <li className="nav-item">
               <FcContacts size={25} />
             </li>
-          </ul>
+          </ul> */}
         </div>
       )}
     </React.Fragment>

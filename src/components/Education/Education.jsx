@@ -16,17 +16,25 @@ const Education = () => {
       year: "2022-2022",
     },
     {
+      sch_name: "System Technology Institute",
+      degree: "Undergrad Bachelor of Science",
+      major: "Computer Science",
+      year: "2002-2003",
+    },
+
+    {
       sch_name: "Asian Development Foundation College",
       degree: "Masters",
       major: "Master in Administration Management",
       year: "1998-1998",
     },
     {
-      sch_name: "System Technology Institute",
-      degree: "Undergrad Bachelor of Science",
-      major: "Computer Science",
-      year: "2002-2003",
+      sch_name: "Leyte Colleges",
+      degree: "Bachelor of Science in Commerce ",
+      major: "Administration Management",
+      year: "199-1997",
     },
+
     {
       sch_name: "Judge Juan Luna High School",
       degree: "Secondary",
