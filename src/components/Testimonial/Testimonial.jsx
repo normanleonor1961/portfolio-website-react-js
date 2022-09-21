@@ -164,9 +164,9 @@ const Testimonial = () => {
                   alt="testimonial image"
                   className="center-image"
                 />
-                <p>{item.des}</p>
                 <p>{item.name}</p>
                 <p>{item.position}</p>
+                <p>{item.des}</p>
               </div>
             </div>
           ))}

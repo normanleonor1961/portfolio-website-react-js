@@ -1,6 +1,6 @@
 .testimonial-section {
   margin-top: 30px;
-  height: 80vh;
+  height: 60vh;
 }
 
 .content-slider-main {
@@ -35,4 +35,13 @@
   justify-content: center;
   align-items: center;
   border: 5px solid rgb(241, 128, 63);
+}
+
+.slick-prev::before {
+  color: #610b5e !important;
+  font-size: 30px;
+}
+.slick-next:before {
+  color: #610b5e !important;
+  font-size: 30px;
 }
