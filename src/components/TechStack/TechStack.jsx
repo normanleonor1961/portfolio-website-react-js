@@ -20,9 +20,6 @@ const TechStack = () => {
       name: "Bootstrap",
     },
     {
-      name: "CSS",
-    },
-    {
       name: "JavaScript",
     },
     {
@@ -45,6 +42,9 @@ const TechStack = () => {
     },
     {
       name: "Postgresql",
+    },
+    {
+      name: "CSS",
     },
   ];
 

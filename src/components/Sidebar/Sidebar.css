@@ -1,6 +1,9 @@
 .sidebar-section {
   display: flex;
-  background-color: #1b1542da;
+  background-color: #2b222213;
+  background-image: url("../../image/bkground.jpg");
+  background-size: contain;
+  object-fit: cover;
 }
 
 .sidebar {
