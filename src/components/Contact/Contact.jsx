@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="container contact-section" id="contact">
       <div className="section-title py-5">
-        <h5>Contact</h5>
+        <h5>Contact Me</h5>
         <span className="line"></span>
       </div>
       <div className="row">
@@ -21,9 +21,7 @@ const Contact = () => {
 
         <div className="col-xl-7 col-lg-7 col-md-7 col-sm-7">
           <div className="contact-form-design">
-            <div className="text-center">
-              <h5>Contact Me</h5>
-            </div>
+            <div className="text-center"></div>
             <form action="">
               <div className="contact-form">
                 <label htmlFor="" className="form-label">

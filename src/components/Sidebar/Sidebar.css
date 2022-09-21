@@ -35,3 +35,15 @@
   border-radius: 5px;
   margin-top: 50px;
 }
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+}

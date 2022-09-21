@@ -19,7 +19,7 @@ const About = () => {
               <span className="line"></span>
             </div>
             <p className="py-3">
-              My name is Norman Leonor and I am a tech-savvy, curious about
+              My name is Norman Leonor and I am a tech-savvy, passionate about
               digital technology and aspires to become a Full-Stack Web
               Developer in the near future. He's perceived his passion in
               computer programming way back in the early 90's when he got

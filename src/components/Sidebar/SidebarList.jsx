@@ -27,49 +27,97 @@ const SidebarList = ({ expandSidebar }) => {
 
           <ul>
             <li className="nav-item">
-              <Link to="home">
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcHome size={25} />
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="about">
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcBusinessman size={25} />
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="workexperience">
+              <Link
+                to="workexperience"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcManager size={25} />
                 Work Experience
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="techstack">
+              <Link
+                to="techstack"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcEngineering size={25} />
                 Tech Stack
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="education">
+              <Link
+                to="education"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcLibrary size={25} />
                 Education
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="projects">
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcFlowChart size={25} />
                 Projects
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="testimonials">
+              <Link
+                to="testimonials"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcCollaboration size={25} />
                 Testimonials
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="contact">
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
                 <FcContacts size={25} />
                 Contact
               </Link>
@@ -81,28 +129,92 @@ const SidebarList = ({ expandSidebar }) => {
           {" "}
           <ul>
             <li className="nav-item">
-              <FcHome size={20} />
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcHome size={25} />
+              </Link>
             </li>
             <li className="nav-item">
-              <FcBusinessman size={20} />
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcBusinessman size={25} />
+              </Link>
             </li>
             <li className="nav-item">
-              <FcManager size={20} />
+              <Link
+                to="workexperience"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcManager size={25} />
+              </Link>
             </li>
             <li className="nav-item">
-              <FcEngineering size={20} />
+              <Link
+                to="techstack"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcEngineering size={25} />
+              </Link>
             </li>
             <li className="nav-item">
-              <FcLibrary size={20} />
+              <Link
+                to="education"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcLibrary size={25} />
+              </Link>
             </li>
             <li className="nav-item">
-              <FcFlowChart size={20} />
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcFlowChart size={25} />
+              </Link>
             </li>
             <li className="nav-item">
-              <FcCollaboration size={20} />
+              <Link
+                to="testimonials"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcCollaboration size={25} />
+              </Link>
             </li>
             <li className="nav-item">
-              <FcContacts size={20} />
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcContacts size={25} />
+              </Link>
             </li>
           </ul>
         </div>

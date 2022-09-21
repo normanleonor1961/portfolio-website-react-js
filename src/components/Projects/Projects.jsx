@@ -2,7 +2,7 @@ import React from "react";
 import "./Project.css";
 import ProjectList from "./ProjectList";
 
-const Project = () => {
+const Projects = () => {
   const data = [
     {
       name: "PHP Stack",
@@ -164,4 +164,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;
