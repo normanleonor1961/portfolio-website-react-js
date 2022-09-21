@@ -4,7 +4,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 
 const Contact = () => {
   return (
-    <div className="container contact-section">
+    <div className="container contact-section" id="contact">
       <div className="section-title py-5">
         <h5>Contact</h5>
         <span className="line"></span>

@@ -143,7 +143,7 @@ const WorkExperience = () => {
   ];
 
   return (
-    <div className="container workexperience-section">
+    <div className="container workexperience-section" id="workexperience">
       <div className="section-title py-5">
         <h5>Work Experience</h5>
         <span className="line"></span>

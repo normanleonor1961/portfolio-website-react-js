@@ -1,10 +1,10 @@
 import React from "react";
 import "./About.css";
-import ProfilePic from "../../image/Norman.jpg";
+import ProfilePic from "../../image/Bong.jpg";
 
 const About = () => {
   return (
-    <div className="container about-section">
+    <div className="container about-section" id="about">
       <div className="row">
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <div className="about-image mx-5">

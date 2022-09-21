@@ -5,7 +5,7 @@ import MyCv from "./norman_cv.pdf";
 
 const Home = () => {
   return (
-    <div className="container-fluid home">
+    <div className="container-fluid home" id="home">
       <div className="container home-content">
         <h1>Hi, I'm a</h1>
         <h3>
@@ -22,7 +22,7 @@ const Home = () => {
             }}
           />
         </h3>
-        <div className="button-for-action">
+        <div className="button-for-action py-5">
           <div className="hire-me-button">Hire me</div>
           <div className="get-resume-button">
             <a href={MyCv} download="Norman_cv.pdf">

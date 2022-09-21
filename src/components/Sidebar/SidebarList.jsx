@@ -1,6 +1,6 @@
 import React from "react";
 import "./SidebarList.css";
-import profilepic from "../../image/Bong.jpg";
+import profilepic from "../../image/Norman.jpg";
 import {
   FcHome,
   FcManager,
@@ -11,6 +11,7 @@ import {
   FcCollaboration,
   FcBusinessman,
 } from "react-icons/fc";
+import { Link } from "react-scroll";
 
 // import { MdBiotech } from "react-icons/md";
 // import { MdCastForEducation } from "react-icons/md";
@@ -26,68 +27,84 @@ const SidebarList = ({ expandSidebar }) => {
 
           <ul>
             <li className="nav-item">
-              <FcHome size={25} />
-              Home
+              <Link to="home">
+                <FcHome size={25} />
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <FcBusinessman size={25} />
-              About
+              <Link to="about">
+                <FcBusinessman size={25} />
+                About
+              </Link>
             </li>
             <li className="nav-item">
-              <FcManager size={25} />
-              Work Experience
+              <Link to="workexperience">
+                <FcManager size={25} />
+                Work Experience
+              </Link>
             </li>
             <li className="nav-item">
-              <FcEngineering size={25} />
-              Tech Stack
+              <Link to="techstack">
+                <FcEngineering size={25} />
+                Tech Stack
+              </Link>
             </li>
             <li className="nav-item">
-              <FcLibrary size={25} />
-              Education
+              <Link to="education">
+                <FcLibrary size={25} />
+                Education
+              </Link>
             </li>
             <li className="nav-item">
-              <FcFlowChart size={25} />
-              Projects
+              <Link to="projects">
+                <FcFlowChart size={25} />
+                Projects
+              </Link>
             </li>
             <li className="nav-item">
-              <FcCollaboration size={25} />
-              Testimonials
+              <Link to="testimonials">
+                <FcCollaboration size={25} />
+                Testimonials
+              </Link>
             </li>
             <li className="nav-item">
-              <FcContacts size={25} />
-              Contact
+              <Link to="contact">
+                <FcContacts size={25} />
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
       ) : (
         <div className="navbar-icons-only">
           {" "}
-          {/* <ul>
+          <ul>
             <li className="nav-item">
-              <FcHome size={25} />
+              <FcHome size={20} />
             </li>
             <li className="nav-item">
-              <FcBusinessman size={25} />
+              <FcBusinessman size={20} />
             </li>
             <li className="nav-item">
-              <FcManager size={25} />
+              <FcManager size={20} />
             </li>
             <li className="nav-item">
-              <FcEngineering size={25} />
+              <FcEngineering size={20} />
             </li>
             <li className="nav-item">
-              <FcLibrary size={25} />
+              <FcLibrary size={20} />
             </li>
             <li className="nav-item">
-              <FcFlowChart size={25} />
+              <FcFlowChart size={20} />
             </li>
             <li className="nav-item">
-              <FcCollaboration size={25} />
+              <FcCollaboration size={20} />
             </li>
             <li className="nav-item">
-              <FcContacts size={25} />
+              <FcContacts size={20} />
             </li>
-          </ul> */}
+          </ul>
         </div>
       )}
     </React.Fragment>

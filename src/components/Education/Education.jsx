@@ -61,7 +61,7 @@ const Education = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container" id="education">
       <div className="section-title py-5">
         <h5>Education</h5>
         <span className="line"></span>

@@ -19,7 +19,7 @@
 
 .navbar-items ul li svg {
   margin-right: 25px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .navbar-icons-only ul li {
@@ -30,5 +30,5 @@
 }
 
 .navbar-icons-only ul li svg {
-  margin-left: 5px;
+  margin-left: -30px;
 }

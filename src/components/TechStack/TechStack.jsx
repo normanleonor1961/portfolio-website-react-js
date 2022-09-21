@@ -72,7 +72,7 @@ const TechStack = () => {
   };
 
   return (
-    <div className="container techstack-section">
+    <div className="container techstack-section" id="techstack">
       <div className="section-title py-5">
         <h5>Tech Stack</h5>
         <span className="line"></span>

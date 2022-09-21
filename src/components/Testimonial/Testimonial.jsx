@@ -148,7 +148,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="container testimonial-section">
+    <div className="container testimonial-section" id="testimonials">
       <div className="section-title py-5">
         <h5>Testimonial</h5>
         <span className="line"></span>
