@@ -3,6 +3,7 @@ import "./Home.css";
 import Typewriter from "typewriter-effect";
 import MyCv from "./norman_cv.pdf";
 import "../../App.css";
+import { Link } from "react-scroll";
 
 const bkgroundPic = new URL("../../image/bkground.jpg", import.meta.url);
 
@@ -27,7 +28,10 @@ const Home = () => {
             />
           </h3>
           <div className="button-for-action py-5">
-            <div className="hire-me-button">Hire me</div>
+            <div className="hire-me-button">
+              <Link to="contact">Hire me</Link>
+            </div>
+
             <div className="get-resume-button">
               <a href={MyCv} download="Norman_cv.pdf">
                 Get Resume
