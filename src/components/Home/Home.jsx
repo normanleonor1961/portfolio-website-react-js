@@ -13,20 +13,21 @@ const Home = () => {
       <div className="container home-content">
         <div className="bk-picture">
           <h1>I am a</h1>
-          <h3>
+          <h2>
             <Typewriter
               options={{
                 strings: [
                   "Full-Stack Web Developer",
                   "React JS Developer",
-                  "CMS Wordpress Developer",
+                  "Wordpress Developer",
+                  "Laravel Developer",
                 ],
 
                 autoStart: true,
                 loop: true,
               }}
             />
-          </h3>
+          </h2>
           <div className="button-for-action py-5">
             <div className="hire-me-button">
               <Link to="contact">Hire me</Link>

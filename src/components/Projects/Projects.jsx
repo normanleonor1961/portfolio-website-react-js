@@ -8,7 +8,7 @@ const Projects = () => {
       name: "PHP Stack",
       description:
         "This project is developed in PHP Stack intended to showcase to an employer to see a live demo of the project.",
-      projectlink: "www.leonorman.com",
+      projectlink: "https://www.myportfolio.leonorman.com/",
       techused: [
         {
           techname: "PHP",
@@ -48,7 +48,7 @@ const Projects = () => {
       name: "CMS Wordpress",
       description:
         " This project is intended to showcase a project developed in Wordpress using custom theme for employer to see a live demo of the project.",
-      projectlink: "www.leonorman.com",
+      projectlink: "https://store.leonorman.com/",
       techused: [
         {
           techname: "WordPress",

@@ -17,10 +17,10 @@ const App = () => {
       <NavbarMobileView />
       <Sidebar />
       <About />
+      <Projects />
       <WorkExperience />
       <TechStack />
       <Education />
-      <Projects />
       <Testimonial />
       <Contact />
       <ScrollToTop

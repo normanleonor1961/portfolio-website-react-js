@@ -52,6 +52,18 @@ const SidebarList = ({ expandSidebar }) => {
             </li>
             <li className="nav-item">
               <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcFlowChart size={25} />
+                Projects
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
                 to="workexperience"
                 spy={true}
                 smooth={true}
@@ -86,18 +98,7 @@ const SidebarList = ({ expandSidebar }) => {
                 Education
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="projects"
-                spy={true}
-                smooth={true}
-                duration={100}
-                offset={-100}
-              >
-                <FcFlowChart size={25} />
-                Projects
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link
                 to="testimonials"
@@ -127,7 +128,7 @@ const SidebarList = ({ expandSidebar }) => {
       ) : (
         <div className="navbar-icons-only">
           {" "}
-          {/* <ul>
+          <ul>
             <li className="nav-item">
               <Link
                 to="home"
@@ -148,6 +149,17 @@ const SidebarList = ({ expandSidebar }) => {
                 offset={-100}
               >
                 <FcBusinessman size={25} />
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={100}
+                offset={-100}
+              >
+                <FcFlowChart size={25} />
               </Link>
             </li>
             <li className="nav-item">
@@ -183,17 +195,7 @@ const SidebarList = ({ expandSidebar }) => {
                 <FcLibrary size={25} />
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="projects"
-                spy={true}
-                smooth={true}
-                duration={100}
-                offset={-100}
-              >
-                <FcFlowChart size={25} />
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link
                 to="testimonials"
@@ -216,7 +218,7 @@ const SidebarList = ({ expandSidebar }) => {
                 <FcContacts size={25} />
               </Link>
             </li>
-          </ul> */}
+          </ul>
         </div>
       )}
     </React.Fragment>
