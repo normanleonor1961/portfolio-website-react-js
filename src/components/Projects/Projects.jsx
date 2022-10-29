@@ -19,9 +19,7 @@ const Projects = () => {
         {
           techname: "Bootstrap",
         },
-        {
-          techname: "Custom CSS",
-        },
+        
       ],
     },
     {
